@@ -1,0 +1,41 @@
+{
+  "name": "generator-static-prototype",
+  "version": "0.1.0",
+  "description": "A generator for scaffolding static prototypes with Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/netoholic/generator-static-prototype",
+  "bugs": "https://github.com/netoholic/generator-static-prototype/issues",
+  "author": {
+    "name": "Boyan Yordanov",
+    "email": "",
+    "url": "https://github.com/netoholic"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netoholic/generator-static-prototype.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

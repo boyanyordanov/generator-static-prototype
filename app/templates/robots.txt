@@ -1,0 +1,5 @@
+#This needs to be at /robots.txt
+# tomcat: put it in the webapps/ROOT 
+# apache and tomcat integrated: put it it root pages directory
+User-agent: *
+Disallow: /andrew-strauss-giftplace/
